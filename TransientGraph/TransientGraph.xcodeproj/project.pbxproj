@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D873EAEF14D7DBD400C6837B /* LineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = D873EAEE14D7DBD400C6837B /* LineChart.m */; };
+		D873EAF314D7DE1E00C6837B /* Accel.m in Sources */ = {isa = PBXBuildFile; fileRef = D873EAF214D7DE1E00C6837B /* Accel.m */; };
+		D873EAF614D7E14E00C6837B /* Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = D873EAF514D7E14E00C6837B /* Filter.m */; };
+		D873EAFC14D8ABCC00C6837B /* record.png in Resources */ = {isa = PBXBuildFile; fileRef = D873EAFA14D8ABCC00C6837B /* record.png */; };
+		D873EAFD14D8ABCC00C6837B /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = D873EAFB14D8ABCC00C6837B /* stop.png */; };
+		D873EAFF14D8ABED00C6837B /* paper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D873EAFE14D8ABED00C6837B /* paper.jpg */; };
+		D887733514C33899002CABE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D887733414C33899002CABE4 /* UIKit.framework */; };
+		D887733714C33899002CABE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D887733614C33899002CABE4 /* Foundation.framework */; };
+		D887733914C33899002CABE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D887733814C33899002CABE4 /* CoreGraphics.framework */; };
+		D887733F14C33899002CABE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D887733D14C33899002CABE4 /* InfoPlist.strings */; };
+		D887734214C33899002CABE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D887734114C33899002CABE4 /* main.m */; };
+		D887734514C33899002CABE4 /* TransientGraphAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D887734414C33899002CABE4 /* TransientGraphAppDelegate.m */; };
+		D887734814C3389A002CABE4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D887734614C3389A002CABE4 /* MainWindow.xib */; };
+		D887734B14C3389A002CABE4 /* TransientGraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D887734A14C3389A002CABE4 /* TransientGraphViewController.m */; };
+		D887734E14C3389A002CABE4 /* TransientGraphViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D887734C14C3389A002CABE4 /* TransientGraphViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D873EAED14D7DBD400C6837B /* LineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChart.h; sourceTree = "<group>"; };
+		D873EAEE14D7DBD400C6837B /* LineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChart.m; sourceTree = "<group>"; };
+		D873EAF114D7DE1E00C6837B /* Accel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accel.h; sourceTree = "<group>"; };
+		D873EAF214D7DE1E00C6837B /* Accel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Accel.m; sourceTree = "<group>"; };
+		D873EAF414D7E14E00C6837B /* Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Filter.h; sourceTree = "<group>"; };
+		D873EAF514D7E14E00C6837B /* Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Filter.m; sourceTree = "<group>"; };
+		D873EAFA14D8ABCC00C6837B /* record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = record.png; path = Images/record.png; sourceTree = "<group>"; };
+		D873EAFB14D8ABCC00C6837B /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stop.png; path = Images/stop.png; sourceTree = "<group>"; };
+		D873EAFE14D8ABED00C6837B /* paper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = paper.jpg; path = Images/paper.jpg; sourceTree = "<group>"; };
+		D887733014C33899002CABE4 /* TransientGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransientGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D887733414C33899002CABE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D887733614C33899002CABE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D887733814C33899002CABE4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D887733C14C33899002CABE4 /* TransientGraph-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransientGraph-Info.plist"; sourceTree = "<group>"; };
+		D887733E14C33899002CABE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D887734014C33899002CABE4 /* TransientGraph-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TransientGraph-Prefix.pch"; sourceTree = "<group>"; };
+		D887734114C33899002CABE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D887734314C33899002CABE4 /* TransientGraphAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransientGraphAppDelegate.h; sourceTree = "<group>"; };
+		D887734414C33899002CABE4 /* TransientGraphAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransientGraphAppDelegate.m; sourceTree = "<group>"; };
+		D887734714C3389A002CABE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D887734914C3389A002CABE4 /* TransientGraphViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransientGraphViewController.h; sourceTree = "<group>"; };
+		D887734A14C3389A002CABE4 /* TransientGraphViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransientGraphViewController.m; sourceTree = "<group>"; };
+		D887734D14C3389A002CABE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TransientGraphViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D887732D14C33899002CABE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D887733514C33899002CABE4 /* UIKit.framework in Frameworks */,
+				D887733714C33899002CABE4 /* Foundation.framework in Frameworks */,
+				D887733914C33899002CABE4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D873EAF914D8ABA200C6837B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D873EAFE14D8ABED00C6837B /* paper.jpg */,
+				D873EAFA14D8ABCC00C6837B /* record.png */,
+				D873EAFB14D8ABCC00C6837B /* stop.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D887732514C33898002CABE4 = {
+			isa = PBXGroup;
+			children = (
+				D887733A14C33899002CABE4 /* TransientGraph */,
+				D887733314C33899002CABE4 /* Frameworks */,
+				D887733114C33899002CABE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D887733114C33899002CABE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D887733014C33899002CABE4 /* TransientGraph.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D887733314C33899002CABE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D887733414C33899002CABE4 /* UIKit.framework */,
+				D887733614C33899002CABE4 /* Foundation.framework */,
+				D887733814C33899002CABE4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D887733A14C33899002CABE4 /* TransientGraph */ = {
+			isa = PBXGroup;
+			children = (
+				D873EAF914D8ABA200C6837B /* Resources */,
+				D887734314C33899002CABE4 /* TransientGraphAppDelegate.h */,
+				D887734414C33899002CABE4 /* TransientGraphAppDelegate.m */,
+				D887734614C3389A002CABE4 /* MainWindow.xib */,
+				D887734914C3389A002CABE4 /* TransientGraphViewController.h */,
+				D887734A14C3389A002CABE4 /* TransientGraphViewController.m */,
+				D887734C14C3389A002CABE4 /* TransientGraphViewController.xib */,
+				D887733B14C33899002CABE4 /* Supporting Files */,
+				D873EAED14D7DBD400C6837B /* LineChart.h */,
+				D873EAEE14D7DBD400C6837B /* LineChart.m */,
+				D873EAF114D7DE1E00C6837B /* Accel.h */,
+				D873EAF214D7DE1E00C6837B /* Accel.m */,
+				D873EAF414D7E14E00C6837B /* Filter.h */,
+				D873EAF514D7E14E00C6837B /* Filter.m */,
+			);
+			path = TransientGraph;
+			sourceTree = "<group>";
+		};
+		D887733B14C33899002CABE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D887733C14C33899002CABE4 /* TransientGraph-Info.plist */,
+				D887733D14C33899002CABE4 /* InfoPlist.strings */,
+				D887734014C33899002CABE4 /* TransientGraph-Prefix.pch */,
+				D887734114C33899002CABE4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D887732F14C33899002CABE4 /* TransientGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D887735114C3389A002CABE4 /* Build configuration list for PBXNativeTarget "TransientGraph" */;
+			buildPhases = (
+				D887732C14C33899002CABE4 /* Sources */,
+				D887732D14C33899002CABE4 /* Frameworks */,
+				D887732E14C33899002CABE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransientGraph;
+			productName = TransientGraph;
+			productReference = D887733014C33899002CABE4 /* TransientGraph.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D887732714C33898002CABE4 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D887732A14C33898002CABE4 /* Build configuration list for PBXProject "TransientGraph" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D887732514C33898002CABE4;
+			productRefGroup = D887733114C33899002CABE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D887732F14C33899002CABE4 /* TransientGraph */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D887732E14C33899002CABE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D887733F14C33899002CABE4 /* InfoPlist.strings in Resources */,
+				D887734814C3389A002CABE4 /* MainWindow.xib in Resources */,
+				D887734E14C3389A002CABE4 /* TransientGraphViewController.xib in Resources */,
+				D873EAFC14D8ABCC00C6837B /* record.png in Resources */,
+				D873EAFD14D8ABCC00C6837B /* stop.png in Resources */,
+				D873EAFF14D8ABED00C6837B /* paper.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D887732C14C33899002CABE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D887734214C33899002CABE4 /* main.m in Sources */,
+				D887734514C33899002CABE4 /* TransientGraphAppDelegate.m in Sources */,
+				D887734B14C3389A002CABE4 /* TransientGraphViewController.m in Sources */,
+				D873EAEF14D7DBD400C6837B /* LineChart.m in Sources */,
+				D873EAF314D7DE1E00C6837B /* Accel.m in Sources */,
+				D873EAF614D7E14E00C6837B /* Filter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D887733D14C33899002CABE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D887733E14C33899002CABE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D887734614C3389A002CABE4 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D887734714C3389A002CABE4 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D887734C14C3389A002CABE4 /* TransientGraphViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D887734D14C3389A002CABE4 /* en */,
+			);
+			name = TransientGraphViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D887734F14C3389A002CABE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D887735014C3389A002CABE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D887735214C3389A002CABE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransientGraph/TransientGraph-Prefix.pch";
+				INFOPLIST_FILE = "TransientGraph/TransientGraph-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D887735314C3389A002CABE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransientGraph/TransientGraph-Prefix.pch";
+				INFOPLIST_FILE = "TransientGraph/TransientGraph-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D887732A14C33898002CABE4 /* Build configuration list for PBXProject "TransientGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D887734F14C3389A002CABE4 /* Debug */,
+				D887735014C3389A002CABE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D887735114C3389A002CABE4 /* Build configuration list for PBXNativeTarget "TransientGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D887735214C3389A002CABE4 /* Debug */,
+				D887735314C3389A002CABE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D887732714C33898002CABE4 /* Project object */;
+}
